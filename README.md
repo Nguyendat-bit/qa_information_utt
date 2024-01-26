@@ -13,11 +13,17 @@ Overview, in terms of architecture, the system will include 3 main modules NLU, 
 Regarding the main functions, in addition to the chatbot's ability to answer general self-introduction and greeting questions. The system can answer questions related to training regulations, student affairs, and information search. Searching for information will mainly be general information related to the school and lecturers.
 
 <p align = "center"> 
-<img src = 'img/chucnang.png' , alt = 'chucnang',style="width:800px;height:600px">
+<img src = 'img/chucnang.png' , alt = 'chucnang',style="width:400px;height:300px">
 </p>
 
 ### Demo 
-![demo](img/qa_utt_quick_demo.mp4)
+<p align = "center"> 
+<video controls>
+  <source src="img/qa_utt_quick_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</p>
+
 
 ### Contacts
 If you have any questions about this article, please contact me (nduc0231@gmail.com)
