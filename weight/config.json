@@ -1,0 +1,42 @@
+{
+    "gen_answer": {
+        "model_name": "bigscience/bloomz-1b1",
+        "lora_r": 16,
+        "lora_alpha": 32, 
+        "lora_dropout": 0.05, 
+        "target_modules": ["query_key_value", "lm_head"], 
+        "ckpt": "generation_answer/best_qa.pt",
+        "fp16": true, 
+        "device": "cuda"
+
+    },
+    "ranker":{
+        "model_name": "vinai/phobert-base-v2",
+        "type_backbone": "bert", 
+        "dropout": 0.1, 
+        "using_hidden_states": true, 
+        "hidden_dim": 768,
+        "num_label": 1,
+        "ckpt": "reranker/best_ranker_ckpt_zalo_sts_vall_lower_grad.pt",
+        "fp16": true, 
+        "device": "cuda"
+    },
+    "sentence_embedd": {
+        "model_name": "vinai/phobert-base-v2",
+        "type_backbone": "bert", 
+        "concat_embeddings": true,
+        "dropout": 0.1, 
+        "using_hidden_states": true, 
+        "hidden_dim": 768,
+        "num_label": 1,
+        "ckpt": "sentence_embedding/best_sentence_ckpt_zalo_sts_vall_lower_grad.pt",
+        "fp16": false, 
+        "device": "cpu"
+    },
+    "api": {
+        "host": "127.0.0.1", 
+        "port": 8000,
+        "reload": false,
+        "auto_cpu_cuda": true
+    }
+}
