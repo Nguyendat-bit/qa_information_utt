@@ -1,6 +1,6 @@
 # qa_information_utt
 ## Overview
-This is my university graduation thesis with the topic of building an automatic information question and answer system for the [University of Transport Technology (UTT)](https://utt.edu.vn/). The main technology used is Retrieval Augmented Generation with models such as embedding, ranker, generator that I have improved and refined to suit the data domain of this problem, in addition to combining with other techniques. others to build a system that can operate optimally. The main goal is to build a compact system that can still ensure the task of correctly answering information for the school. For more details, you can read my report.
+This is my university graduation thesis with the topic of building an automatic information question and answer system for the [University of Transport Technology (UTT)](https://utt.edu.vn/). The main technology used is Retrieval Augmented Generation with models such as embedding, ranker, generator that I have improved and refined to suit the data domain of this problem, in addition to combining with other techniques. others to build a system that can operate optimally. The main goal is to build a compact system that can still ensure the task of correctly answering information for the school. For more details, you can read my [report](Report.pdf).
 
 In addition, during the process of writing this graduation thesis, I also built the [RAG_chatbot](https://github.com/Nguyendat-bit/RAG_chatbot) library to support training and inference of Embedding, Ranker, LLM models along with being able to easily deploy and monitor training, easily fine-tune parameters and optimize the model. 
 
@@ -20,7 +20,6 @@ Regarding the main functions, in addition to the chatbot's ability to answer gen
 <p align = "center"> 
 <video controls>
   <source src="https://drive.google.com/file/d/1gQ6YAuTU2F67A_DoPtViLcX6X0abq7Vf" type="video/mp4">
-  Your browser does not support the video tag.
 </video>
 </p>
 
