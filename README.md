@@ -1,4 +1,4 @@
-# qa_information_utt
+# Building a Retrieval-Augmented Generation System for Automated Information Q&A at the University of Transport Technology
 ## Overview
 This is my university graduation thesis with the topic of building an automatic information question and answer system for the [University of Transport Technology (UTT)](https://utt.edu.vn/). The main technology used is Retrieval Augmented Generation with models such as embedding, ranker, generator that I have improved and refined to suit the data domain of this problem, in addition to combining with other techniques. others to build a system that can operate optimally. The main goal is to build a compact system that can still ensure the task of correctly answering information for the school. For more details, you can read my [report](Report.pdf).
 
